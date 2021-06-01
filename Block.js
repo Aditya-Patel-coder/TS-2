@@ -12,7 +12,7 @@ class Block{
         World.add(world, this.body);
       }
       display(){
-        if(this.body.speed<3){
+        if(this.body.speed<6){
         var angle = this.body.angle;
         
         push();
